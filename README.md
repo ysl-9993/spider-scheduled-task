@@ -2,7 +2,7 @@
 
 ![Package Version]
 
-这是一款微信文章采集的开源定时任务工具，基于([wechat-article-spider](https://github.com/wechat-article/wechat-article-exporter))，支持自定义输出路径、定时时间、请求ip等参数，需要定期维护X-Auth-Key。
+这是一款微信文章采集的开源定时任务工具，基于([wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter))，支持自定义输出路径、定时时间、请求ip等参数，需要定期维护X-Auth-Key。
 
 ## 项目结构
 ```txt
@@ -34,7 +34,7 @@ pip install -r requirement.txt
 ### 2. 配置环境变量
 在项目根目录修改`.env`文件，配置以下环境变量：
 - 请求地址：`API_BASE_URL`项目运行的ip地址和端口号，默认值为`http://127.0.0.1:3000/`
-- api密钥：`X-Auth-Key`登录后获取的密钥，失效后需要重新登录获取，具体获取方式参考[wechat-article-spider](https://github.com/wechat-article/wechat-article-exporter)的说明文档。
+- api密钥：`X-Auth-Key`登录后获取的密钥，失效后需要重新登录获取，具体获取方式参考[wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter)的说明文档。
 - 其他环境变量按需配置
 
 ### 3. 运行项目
@@ -47,7 +47,7 @@ python main.py
 `X-Auth-Key`过期后，重新登录获取最新X-Auth-Key。在`.env`文件中更新`X-Auth-Key`值。
 
 ## 声明
-- 本项目基于[wechat-article-spider](https://github.com/wechat-article/wechat-article-exporter)，感谢原作者的贡献。
+- 本项目基于[wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter)，感谢原作者的贡献。
 - 本项目仅用于学习和研究，不涉及任何商业用途。
 - 本项目的所有代码均遵循MIT开源协议，您可以在遵守协议的前提下自由使用、修改和分发本项目的代码。
 
