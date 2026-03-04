@@ -1,5 +1,5 @@
 {
   "name": "spider-scheduled-task",
-  "version": "1.0.0",
-  "description": "基于wechat-article-spider的微信文章采集定时任务工具"
+  "version": "1.0.4",
+  "description": "基于wechat-article-exporter的微信文章采集定时任务工具"
 }

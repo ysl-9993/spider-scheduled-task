@@ -2,7 +2,7 @@
 
 ![Package Version]
 
-这是一款微信文章采集的开源定时任务工具，基于([wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter))，支持自定义输出路径、定时时间、请求ip等参数，需要定期维护X-Auth-Key。
+这是一款微信文章采集的开源定时任务工具，基于[wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter)，支持自定义输出路径、定时时间、请求ip等参数，需要定期维护X-Auth-Key。
 
 ## 项目结构
 ```txt
