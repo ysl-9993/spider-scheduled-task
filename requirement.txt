@@ -1,0 +1,11 @@
+certifi==2026.2.25
+charset-normalizer==3.4.4
+dotenv==0.9.9
+et_xmlfile==2.0.0
+idna==3.11
+loguru==0.7.3
+lxml==6.0.2
+openpyxl==3.1.5
+python-dotenv==1.0.1
+requests==2.32.4
+urllib3==2.2.3
